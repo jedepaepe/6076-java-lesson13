@@ -6,5 +6,6 @@ public class FirstLineScanner {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(new File("persons.csv"));
         System.out.println(scanner.nextLine());
+        scanner.close();
     }
 }

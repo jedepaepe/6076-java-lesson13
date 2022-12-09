@@ -27,5 +27,6 @@ public class PersonForm {
         System.out.println("Nouvelle personne encodée:");
         System.out.println(person.identifier + " " + person.firstName + " " + person.lastName + " " +
                 person.email + " " + person.birthYear);
+        scanner.close();
     }
 }

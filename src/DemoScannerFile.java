@@ -9,5 +9,6 @@ public class DemoScannerFile {
         int integer = scanner.nextInt();
         double real = scanner.nextDouble();
         System.out.println(text + " " + integer + " " + real);
+        scanner.close();
     }
 }

@@ -15,5 +15,6 @@ public class DemoScannerKeyboard {
         double real = scanner.nextDouble();
 
         System.out.println(text + " " + integer + " " + real);
+        scanner.close();
     }
 }
