@@ -22,6 +22,8 @@ public class PersonForm {
         System.out.print("année de naissance: ");
         person.birthYear = scanner.nextInt();
 
+        // sauve la personne dans une base de données
+
         System.out.println("Nouvelle personne encodée:");
         System.out.println(person.identifier + " " + person.firstName + " " + person.lastName + " " +
                 person.email + " " + person.birthYear);
