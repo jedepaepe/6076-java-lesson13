@@ -24,12 +24,12 @@ public class ReceipeForm {
         receipe.duration = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.println("ingrédients: ");
+        System.out.print("ingrédients: ");
         receipe.ingredients = scanner.nextLine();
 
         // sauve la recette dans une base de données
 
-        System.out.println("\nLa recettes " + receipe.name + " est encodée");
+        System.out.println("\nLa recette " + receipe.name + " est encodée");
         scanner.close();
     }
 }
