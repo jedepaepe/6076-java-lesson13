@@ -16,5 +16,7 @@ public class StringScanner {
 
         boolean bool = scanner.nextBoolean();
         System.out.println("le booléen: " + bool);
+
+        scanner.close();
     }
 }
