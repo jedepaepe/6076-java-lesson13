@@ -1,10 +1,12 @@
 import java.util.Scanner;
 
-public class EchoSimple {
+public class EchoFor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String text = scanner.nextLine();
-        System.out.println(text);
+        for (; scanner.hasNext(); ) {
+            String text = scanner.nextLine();
+            System.out.println(text);
+        }
         scanner.close();
     }
 }

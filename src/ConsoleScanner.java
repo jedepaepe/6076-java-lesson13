@@ -22,5 +22,7 @@ public class ConsoleScanner {
         boolean bool = scanner.nextBoolean();
         scanner.nextLine();
         System.out.println("Le booléen tapé est: " + bool);
+
+        scanner.close();
     }
 }
